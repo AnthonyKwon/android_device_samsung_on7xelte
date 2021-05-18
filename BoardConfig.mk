@@ -19,14 +19,14 @@ DEVICE_PATH := device/samsung/on7xelte
 BOARD_USE_TFA_AMP := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := on7xelte,on7xeltedd,on7xeltekl,on7xeltekk,on7xelteks,on7xelteub,on7xeltezt
+TARGET_OTA_ASSERT_DEVICE := on7xelte,on7xeltedd,on7xeltelgt,on7xeltektt,on7xelteskt,on7xelteub,on7xeltezt
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos7870-on7xelte_defconfig
+TARGET_KERNEL_CONFIG := exynos7870-on7xeltekor_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml

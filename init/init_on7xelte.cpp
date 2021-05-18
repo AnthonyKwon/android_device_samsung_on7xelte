@@ -95,23 +95,17 @@ void vendor_load_properties()
     } else if (bootloader.find("G610L") == 0) {
     /* SM-G610L */
         property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-G610L");
-        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "on7xeltekl");
-
-        init_dsds();
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "on7xeltelgt");
 
     } else if (bootloader.find("G610K") == 0) {
     /* SM-G610K */
         property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-G610K");
-        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "on7xeltekk");
-
-        init_dsds();
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "on7xeltektt");
 
     } else if (bootloader.find("G610S") == 0) {
     /* SM-G610S */
         property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-G610S");
-        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "on7xelteks");
-
-        init_dsds();
+        property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "on7xelteskt");
 
     } else if (bootloader.find("G610M") == 0) {
     /* SM-A320Y */
